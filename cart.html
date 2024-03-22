@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="css/home.css" rel="stylesheet">
+    <link href="css/cart.css" rel="stylesheet">
+    <title>Cart Shoping </title>
+</head>
+<body>
+    <section><div class="head">
+
+        <a href="sign_up.html" >تسجيل دخول</a>
+        <a href="login.html"> حساب جديد</a>
+        <i class="fa-solid fa-bars"></i>
+        
+        </div></section>
+    <!-- header-->
+    <header class="headernon" >
+        <nav data-aos="zoom-in">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="icons">
+                   <a href="account.html"><i class="fa-regular fa-user"></i></a>
+                    <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <input type="text" class="search" placeholder="Search">
+
+                    </div>
+                </div>
+                <div class="col-4">
+                    <ul>
+                    <li><a href="home.html#crad">المنتجات</a></li>
+                    <li><a href="home.html#newproudect">المنتجات الحديثة </a> </li>
+                    <li><a href="home.html#Advantages">المزايا  </a> </li>
+                </ul>
+            </div>
+              
+            <div class="col-4"><h2><a href="home.html">لوجو</a></h2></div>
+
+            </div>
+        </div>
+    </nav>
+    </header>
+<!-- search -->
+
+   <div class="search-container">
+            <input type="search" id="search" name="search" placeholder="Search...">
+            <button type="submit">Search</button>
+        </div>
+
+    <div class="cart-container">
+        <table class="cart-table" id="myTable">
+            <thead>
+                <tr>
+                    <th>السعر الكلى </th>
+                    <th>الكمية </th>
+                    <th>السعر </th>
+                    <th>الصورة </th>
+                    <th>المنتج </th>
+                </tr>
+            </thead>
+            <tbody >
+                <tr>
+                    <td>20$</td>
+                    <td>2</td>
+                    <td>$10.00</td>
+                    <td><img src="https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/98/349716/1.jpg?4459" alt="Product 1 Image" width="100"></td>
+                    <td>ايفون</td>
+                </tr>
+                <tr>
+                    <td>20$</td>
+                    <td>2</td>
+                    <td>$10.00</td>
+                    <td><img src="https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/98/349716/1.jpg?4459" alt="Product 1 Image" width="100"></td>
+                    <td>سامسونج</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">السعر الكلى </td>
+                    <td>$40.00</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+        <!-- footer -->
+        <footer >
+            <div class="footer-content">
+                <div class="footer-head">
+                    <h2>Footer</h2>
+                </div>
+                <div class="footer-nav">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-search">
+                    <form action="#" method="get">
+                        <input type="email" name="Email" placeholder="Email...">
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <script src="js/search.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+                duration: 1200,
+            });
+    </script>
+    </body>
+</html>
