@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="css/home.css" rel="stylesheet">
-    <title>تسجيل دخول</title>
+    <link href="css/login.css" rel="stylesheet">
+    <title> حساب جديد </title>
 </head>
 <body>
     <section><div class="head">
 
-        <a href="sign_up.html" >تسجيل دخول</a>
-        <a href="login.html"> حساب جديد</a>
+        <a href="sign_up.html" > حساب جديد</a>
+        <a href="login.html"> تسجيل دخول </a>
         <i class="fa-solid fa-bars"></i>
         
         </div></section>
@@ -44,7 +45,28 @@
         </div>
     </nav>
     </header>
-
+    <div class="login-container">
+        <form class="login-form">
+            <h3>Sign Up</h3>
+            <div class="form-group">
+                <label for="username">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Complete Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+    </div>
 
 
         <!-- footer -->

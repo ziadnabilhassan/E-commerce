@@ -4,6 +4,10 @@ font-size: medium;
 font-weight: bolder;
 
 }
+body{
+    background-color: #f1f1f1;
+
+}
 
 .head{
     background-color: black;
@@ -357,6 +361,8 @@ footer {
 #imgcard img{
     height: 70px; margin: 5%; width: 70%;
 }
+
+
 
 @media only screen and (max-width: 912px) { 
    
